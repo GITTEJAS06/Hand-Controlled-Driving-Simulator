@@ -37,6 +37,7 @@ python hand_gesture_car_control.py
 
 3️⃣ **Run the application**  
 🖐️ All fingers open → Accelerate
+
 ✊ All fingers closed → Brake
 
 4️⃣ **Press Q to quit the program.**
@@ -46,19 +47,26 @@ python hand_gesture_car_control.py
 ## 🖥️ How It Works  
 
 📷 Webcam captures your hand in real-time.
+
 🧠 MediaPipe processes hand landmarks.
+
 ✋ It checks the status of your fingers (open or closed).
+
 ⌨️ Based on the gesture, it simulates Left or Right arrow key presses using pynput.
 
 
 ## 📌 Notes 
 • Only one hand is detected (the last detected hand is used).
+
 • Make sure your background is clear and well-lit.
+
 • The key press simulation works best in games or apps that support keyboard input directly. 
 
 
 ## 🧠 Future Ideas 
 🔄 Add support for multiple gestures (turning, horn, gear shift)
+
 🎯 Calibrate hand position to improve accuracy
+
 🧪 Add feedback or haptic support
 
